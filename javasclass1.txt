@@ -1,0 +1,65 @@
+Week -1 Introduction to JAVA programing and JVM basics, Install IDE (IJ)
+
+I- Definition
+
+JAVA: Java is a programming language who helps to create modular programs and reusable code.
+
+II- JAVA terminology and utilities
+
+   A-Java Virtual Machine (JVM)
+
+          1- Definition
+
+Is a machine that resides in the computer, his language is byte code.
+ 
+          2-Utilities
+
+- execution of the bytecode produced by compiler
+-JVM makes Java platform independent (byte code generated
+On Windows can be run on Mac OS and vice versa)
+
+   B- Javac
+
+1- definition
+Javac is a primary Java compiler included in Java development kit. 
+
+2-Utilitie
+Javac compile program writing by programmer.
+ 
+C -Java Development Kit (JDK): definition and utilitie
+
+JDK is complete Java development kit that includes
+ JRE, compiler and various tools.
+
+   D- Java Runtime Environment (JRE)
+
+JRE is include in JDK . With JRE installed to your computer you can run a Java program but you can't compile.
+
+   E - bytecode
+ 
+      1-definition
+Bytecode is a result of writing program compile by javac compiler .
+      
+          2-Utilities
+Bytecode an output coming from javac , will be the an input for JVM.  It is the language understood by JVM.
+
+  III- PHASES OF PROGRAM EXECUTION
+
+      A- Writing of program
+
+Writing of program is done by programmer it represents input for Javac . All source code is first written in plain text files (.java file) .
+     B- Compilation
+
+It is done by javac compiler, it take Java program as input and generated output call Java bytecode (.class file).
+
+       C-Execution or Program Run Phase
+
+This phase is done by JVM. It executes the bytecode produced by compiler.
+
+Step1 : copy the program writing on Notepad or TextEdit and paste it in the text editor.
+
+Step 2 : Save the file as the same name as the public class name .
+
+Step 3 : Compile the program. Open commande prompt (cmd) for Windows or Terminal for Mac OS, type your command  and then hit enter .
+
+Step 4 : Run the program . After compilation ,java gets translate into the .class (byte code) . Type your  command and hit enter . The program will be run. ( never append the .java extension to the file name while running the program.) 
