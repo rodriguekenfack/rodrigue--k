@@ -1,0 +1,40 @@
+  I- Data Types in Java
+       
+         Data type defines the values that a variable can take . We have two categories of data type In java : Primitive data types and Non-primitive data types
+
+                1-Primitive data types
+        we have eight primitive data types: boolean, char, byte, short, int, long, float and double
+
+               a- Byte
+byte can hold whole number between -128 and 127. usually used to save memory .
+default size of this data type: 1 byte.
+default value: 0 
+               b- Short 
+It's greater than byte in terms of size and less than integer. Its range is -32,768 to 32767.
+Default size of this data type: 2 byte
+               c-Int
+Used when short is not large enough to hold the number, it has a wider range: -2,147,483,648 to 2,147,483,647. Default size: 4 byte ,default value: 0
+               d- Long : Used when int is not large enough to hold the value, it has wider range than int data type, ranging from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 . Size : 8bytes , default value : 0
+               e- Double: Sufficient for holding 15 decimal digits. Size : 8 bytes
+               f-Float : Sufficient for holding 6 to 7 decimal digits. Size : Size 4bytes
+               g-Boolean:  holds either true of false.
+               h- Char : holds characters. Size: 2bytes
+           II- Variable in Java
+      A variable is a name associated with a value that can be changed. For example when I write int i=10; here variable name is i which is associated with value 10. 
+Value is optional because in java, you can declare the variable first and then later assign the value to it.
+                   1-Types of Variable in Java 
+There are three types of variables in java :Local variable, Static (class) variable, Instance variable.
+                    a- Static variables:  also known as class variable because they are associated with the class and common for all the instances of class.
+                    b- Instance Variable: Each instance(objects) of class has its own copy of instance variable. It have their own separate copy of instance variable. 
+                    c-Local Variable : They are declared inside method of the class. Their scope is limited to the method which means that You can’t change their values and access them outside of the method.
+  
+                  III- Access Modifiers in Java
+ Access modifiers in Java helps to restrict the scope of a class, constructor , variable , method or data member. There are four types of access modifiers available in java:
+
+                   1-Default (No keyword required) : no access modifier is specified for a class 
+
+                   2-Private : it means “only visible within the enclosing class”. The private access modifier is specified using the keyword private.
+
+                   3-Protect access : It's specified using the keyword protected . The methods or data members declared as protected are accessible within same package or sub classes in different package. 
+
+                   4-Public: are accessible from every where  in the program. There is no restriction on the scope of a public data members.
